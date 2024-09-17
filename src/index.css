@@ -1,0 +1,46 @@
+/* /* Общий стиль для всего компонента */
+.container {
+  background-color: #fff;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.color-container {
+  text-align: center;
+}
+
+/* Стиль для основного блока ввода */
+.color-input {
+  text-align: center;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  width: 200px;
+}
+
+/* Стиль для блока результата */
+.result {
+  margin-top: 20px;
+  color: white;
+  background-color: #34495e;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* Стиль для блока с ошибкой */
+.error {
+  color: white;
+  background-color: brown;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* Стиль для правильного результата */
+.success {
+  color: white;
+  background-color: #34495e;
+  padding: 10px;
+  border-radius: 5px;
+}
